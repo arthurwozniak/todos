@@ -36,3 +36,7 @@ en:
       even: "must be even"
       required: "must exist"
       taken: "has already been taken"
+    authentication:
+      missing_token: "Missing token. Ensure Authorization HTTP header is present."
+      invalid_token: "Invalid token. Ensure Authorization HTTP header set to proper value."
+      inaccessible_entity: "Inaccessible entity."

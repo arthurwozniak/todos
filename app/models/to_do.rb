@@ -6,6 +6,5 @@ class ToDo < ApplicationRecord
 
   validates :text, presence: true,
                    length: { maximum: TEXT_MAX_LENGTH }
-  validates :done, presence: true,
-                   inclusion: { in: [true, false] }
+  validates :done, inclusion: { in: [true, false] }
 end
