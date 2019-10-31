@@ -3,6 +3,7 @@
 Really simple ToDo API with no real-world use case. Visit https://kamilovo.herokuapp.com/ to see the demo.
 
 ###Routes
+
 | Path  | Request type | Description |
 | ------------- | ------------- | ------------- | 
 | /  | GET  | 42 |
