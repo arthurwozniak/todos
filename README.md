@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Really simple ToDo API with no real-world use case. Visit https://kamilovo.herokuapp.com/ to see the demo.
 
-Things you may want to cover:
+###Routes
+| Path  | Request type | Description |
+| ------------- | ------------- | ------------- | 
+| /  | GET  | 42 |
+| /to_dos| GET  | List users ToDos  |
+| /to_dos| POST  | Create new users ToDo  |
+| /to_dos/:id| GET  | Show specific ToDo  |
+| /to_dos/:id| PUT  | Update specific ToDo  |
+| /to_dos/:id| DELETE  | Destroy specific ToDo  |
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Requests
+All resquests aiming to `/to_dos` route are supposed to contain `Authorization` header with users token.

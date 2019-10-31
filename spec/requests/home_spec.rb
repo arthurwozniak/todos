@@ -14,7 +14,7 @@ RSpec.describe 'Home controller', type: :request do
     it 'returns info message' do
       get '/'
 
-      expect(json_response['message']).to match I18n.t('home.welcome')
+      expect(json_response['message']).to include I18n.t('home.welcome')
     end
   end
 end

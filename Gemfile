@@ -20,11 +20,11 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # gem 'rack-cors'
 
 gem 'dotenv-rails', require: 'dotenv/rails-now'
+gem 'faker'
 
 group :test do
   gem 'database_cleaner'
   gem 'factory_bot_rails'
-  gem 'faker'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
 end

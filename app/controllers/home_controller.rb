@@ -5,6 +5,6 @@ class HomeController < ApplicationController
 
   # GET /
   def index
-    render json: { message: I18n.t('home.welcome') }, status: 200
+    render json: { message: [Faker::Movies::HitchhikersGuideToTheGalaxy.quote, I18n.t('home.welcome')].join(' ') }, status: 200
   end
 end
