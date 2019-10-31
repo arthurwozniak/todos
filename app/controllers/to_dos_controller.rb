@@ -15,7 +15,6 @@ class ToDosController < ApplicationController
 
   # POST /to_dos
   def create
-    puts to_do_params
     @to_do = @current_user.to_dos.new to_do_params
 
     if @to_do.save

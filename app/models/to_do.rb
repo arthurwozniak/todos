@@ -7,4 +7,8 @@ class ToDo < ApplicationRecord
   validates :text, presence: true,
                    length: { maximum: TEXT_MAX_LENGTH }
   validates :done, inclusion: { in: [true, false] }
+
+  def to_s
+    [id, user.name, text[0..19]].join ' ~ '
+  end
 end
