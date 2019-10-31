@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-RSpec.describe 'Todos API', type: :request do
+RSpec.describe "ToDo's API", type: :request do
   # initialize test data
   let(:user_1) { build(:user) }
   let(:user_2) { build(:user) }

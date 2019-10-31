@@ -40,3 +40,5 @@ en:
       missing_token: "Missing token. Ensure Authorization HTTP header is present."
       invalid_token: "Invalid token. Ensure Authorization HTTP header set to proper value."
       inaccessible_entity: "Inaccessible entity."
+  home:
+    welcome: "For more details visit https://github.com/arthurwozniak/todos"
